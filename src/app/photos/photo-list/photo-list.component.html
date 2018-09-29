@@ -10,7 +10,4 @@
     </form>
 </div>
 
-<!-- testando o evento -->
-{{ filter }}
-
-<ap-photos [photos] = "photos"></ap-photos>
+<ap-photos [photos] = "photos | filterByDescription: filter"></ap-photos>
