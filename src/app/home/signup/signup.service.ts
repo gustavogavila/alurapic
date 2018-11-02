@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { NewUser } from './new-user';
 
 
-const API_URL = "http://localhost:3000";
+const API_URL = 'http://localhost:3000';
 
 @Injectable()
 export class SignUpService {

@@ -25,7 +25,7 @@ const routes: Routes = [
     },
     { path: 'p/add', component: PhotoFormComponent },
     { path: '**', component: NotFoundComponent }
-]
+];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes, { useHash: true })],
